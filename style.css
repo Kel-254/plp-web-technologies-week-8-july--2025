@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #388e3c;
+  color: #fff;
+  padding: 10px 0;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 20px;
+}
+header h1 {
+  margin: 0;
+}
+header nav a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+.hero {
+  text-align: center;
+}
+.hero-img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  background: #2e7d32;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.btn:hover {
+  background: #1b5e20;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+  background: #f9f9f9;
+}
+.card img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+footer {
+  background: #f1f1f1;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form label {
+  margin-top: 10px;
+}
+.form input, .form textarea {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #a5a2a2;
+  border-radius: 4px;
+}
+.hidden {
+  display: none;
+}
