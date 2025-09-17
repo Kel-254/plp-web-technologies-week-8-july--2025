@@ -16,7 +16,7 @@ The website is built to be responsive and user-friendly, meaning it works just a
 
 ## 🌍 Live Website
 The project is deployed on **GitHub Pages** and can be accessed here:  
-[Fresh Grocery Delivery Website](https://your-username.github.io/assignment-repo/)
+[Fresh Grocery Delivery Website](https://kel-254.github.io/plp-web-technologies-week-8-july--2025/)
 
 ---
 
